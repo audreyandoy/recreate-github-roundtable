@@ -28,6 +28,54 @@
   color: #61dafb;
 }
 
+ul {
+  width: 100vw;
+  display: flex;
+  text-align: center;
+}
+
+ul li {
+  display: flex;
+  margin: 1em;
+}
+
+p, button {
+  display: inline-block;
+  margin: 0;
+}
+
+.hero-section {
+  width: 100%;
+}
+
+
+.hero-text {
+  width: 40%;
+  display: inline-block;
+  margin-right: 5%;
+}
+
+.hero-text p {
+  margin: 2em;
+}
+
+img {
+  height: 15%;
+  width: 15%;
+  display: inline-block;
+}
+
+.newsletter {
+  display: inline-block;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
